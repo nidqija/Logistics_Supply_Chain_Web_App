@@ -5,15 +5,17 @@ import "../App.css";
 export default function SignUpPage(){
 
   return (
-    
-   <Box   width={{ base: "90%", sm: "400px", md: "30rem" }} mx="auto" mt={10} >
+    <div style={{height:'50rem'}}>
+          <h1>Logistech</h1>
+       <Box   width={{ base: "100%", sm: "400px", md: "30rem" }} mx="auto" mt={20} >
+
     <form>
-         <VStack spacing={5} padding={8} style={{backgroundColor:'beige' , borderRadius:'20px'}}>
+         <VStack spacing={5} padding={8} style={{backgroundColor:'lightblue' , borderRadius:'20px'}}>
             <h2>Sign Up</h2>
 /*==================== this is email form ===============================*/
       <FormControl>
         <FormLabel>Email</FormLabel>
-        <Input background={"white"}/>
+        <Input background={"white"} id="username"/>
         <FormErrorMessage>Email is required</FormErrorMessage>
       </FormControl>
 
@@ -22,7 +24,7 @@ export default function SignUpPage(){
 
       <FormControl>
         <FormLabel>Password</FormLabel>
-        <Input background={"white"}/>
+        <Input background={"white"} name="password"/>
         <FormErrorMessage>Password is required</FormErrorMessage>
       </FormControl>
 
@@ -33,11 +35,13 @@ export default function SignUpPage(){
         <Input background={"white"}/>
         <FormErrorMessage>Password is required</FormErrorMessage>
       </FormControl>
-     
-     <Button background={"lightblue"}>Enter</Button>
+     <Button background={"beige"}>Enter</Button>
+          <p>Signed up? <a href="/login">Log In</a></p>
+
        </VStack>
     </form>
    </Box>
+   </div>
   
   )
 
