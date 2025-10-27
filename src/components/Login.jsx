@@ -6,7 +6,7 @@ export default function LoginPage(){
 
   return (
         <div style={{height:'50rem'}}>
-          <h1>Charger</h1>
+                    <h1>Logistech</h1>
        <Box   width={{ base: "100%", sm: "400px", md: "30rem" }} mx="auto" mt={20} >
 
     <form>
@@ -32,7 +32,7 @@ export default function LoginPage(){
 
     
      
-     <Button background={"beige"}>Enter</Button>
+     <Button background={"beige"} href="/Homepage">Enter</Button>
      <p>Don't have an account? <a href="/signup">Sign Up</a></p>
        </VStack>
     </form>

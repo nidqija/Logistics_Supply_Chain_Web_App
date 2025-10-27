@@ -6,7 +6,7 @@ export default function SignUpPage(){
 
   return (
     <div style={{height:'50rem'}}>
-          <h1>Charger</h1>
+          <h1>Logistech</h1>
        <Box   width={{ base: "100%", sm: "400px", md: "30rem" }} mx="auto" mt={20} >
 
     <form>
