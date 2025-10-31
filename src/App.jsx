@@ -1,5 +1,5 @@
 import SignUpPage from "./components/Signup";
-import LoginPage from "./components/Login";
+import LoginWebPage from "./pages/LoginPage";
 import {BrowserRouter as  Router , Route , Routes} from 'react-router-dom';
 
 
@@ -10,7 +10,7 @@ export default function App() {
     <Router>
      <Routes>
       <Route path="/signup" element={<SignUpPage/>}/>
-      <Route path="/login" element={<LoginPage/>}/>
+      <Route path="/login" element={<LoginWebPage/>}/>
      </Routes>
      </Router>
       </>
