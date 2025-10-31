@@ -10,7 +10,6 @@ import {
   HStack,
   Icon
 } from '@chakra-ui/react';
-import { MapIcon, PeopleIcon, BellIcon } from '@chakra-ui/icons';
 
 const Header = ({ currentView, onViewChange, unreadAlerts }) => {
   const handleTabChange = (index) => {
@@ -51,19 +50,16 @@ const Header = ({ currentView, onViewChange, unreadAlerts }) => {
           <TabList>
             <Tab>
               <HStack spacing={2}>
-                <MapIcon />
                 <Text>Map</Text>
               </HStack>
             </Tab>
             <Tab>
               <HStack spacing={2}>
-                <PeopleIcon />
                 <Text>Community</Text>
               </HStack>
             </Tab>
             <Tab>
               <HStack spacing={2}>
-                <BellIcon />
                 <Text>Alerts</Text>
                 {unreadAlerts > 0 && (
                   <Badge colorScheme="red" borderRadius="full" px={2}>

@@ -36,7 +36,7 @@ export default function SignUpPage(){
         <FormErrorMessage>Password is required</FormErrorMessage>
       </FormControl>
      <Button background={"beige"}>Enter</Button>
-          <p>Signed up? <a href="/login">Log In</a></p>
+          <p>Signed up? <a href="/home">Log In</a></p>
 
        </VStack>
     </form>
