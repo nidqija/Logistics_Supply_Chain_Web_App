@@ -6,7 +6,7 @@ export default function SignUpPage(){
 
   return (
     <div style={{height:'50rem'}}>
-          <h1>Charger</h1>
+          <h1>Logistech</h1>
        <Box   width={{ base: "100%", sm: "400px", md: "30rem" }} mx="auto" mt={20} >
 
     <form>
@@ -36,7 +36,7 @@ export default function SignUpPage(){
         <FormErrorMessage>Password is required</FormErrorMessage>
       </FormControl>
      <Button background={"beige"}>Enter</Button>
-          <p>Signed up? <a href="/login">Log In</a></p>
+          <p>Signed up? <a href="/home">Log In</a></p>
 
        </VStack>
     </form>
